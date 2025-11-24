@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 
 export default function Welcome() {
   return (
-    <div className='bg-black text-white'>Welcome</div>
     <div className="bg-black text-white min-h-screen flex flex-col justify-center items-center gap-4">
       <h1 className="text-3xl font-bold">Welcome</h1>
 
