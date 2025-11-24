@@ -1,4 +1,6 @@
+import { useState, type FormEvent } from "react"
 import { register } from "../services/auth"
+import { useNavigate } from "react-router-dom"
 
 export default function Register() {
   // state - component data
