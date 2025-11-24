@@ -6,7 +6,7 @@ import { refreshTokens } from "./auth"
 
 const api = axios.create({
 
-  baseUrl: "https://simple-web-web-be.vercel.app/api/v1/post/ai/generate"
+  baseURL: "https://simple-web-web-be.vercel.app/api/v1/post/ai/generate"
 
   // baseURL: "http://localhost:5000/api/v1"
 })

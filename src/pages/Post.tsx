@@ -1,4 +1,3 @@
-import { useEffect, useState, type ChangeEvent, type FormEvent } from "react"
 import { createPost, getAllPost } from "../services/post"
 
 export default function Post() {
